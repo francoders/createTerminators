@@ -1,6 +1,6 @@
 # creacionTerminators
 Desarrollo de una aplicacion de consola C# que permite emular el funcionamiento del sistema de creación de
-máquinas SkyNet de la pelicula Terminator
+máquinas SkyNet
 
 # Para lo cual:
 1 Crear un Class Library que incluya el Namespace DTO y, dentro de él, la Clase Terminator, que
