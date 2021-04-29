@@ -1,5 +1,5 @@
 # creacionTerminators
-Desarrollo de una aplicacion C# que permite emular el funcionamiento del sistema de creación de
+Desarrollo de una aplicacion de consola C# que permite emular el funcionamiento del sistema de creación de
 máquinas SkyNet de la pelicula Terminator
 
 # Para lo cual:
