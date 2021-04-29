@@ -6,7 +6,7 @@ máquinas SkyNet de la pelicula Terminator
 1. Crear un Class Library que incluya el Namespace DTO y, dentro de él, la Clase Terminator, que
 debe incluir los atributos descritos en el módulo de ingreso.
 
-2. Implementar las operaciones de ingreso, búsqueda y listado de Terminators en base a la siguiente
+2- Implementar las operaciones de ingreso, búsqueda y listado de Terminators en base a la siguiente
 lógica de negocios, dentro de una Aplicación de Consola C#:
 Crear un menú de acceso de la aplicación que permita:
 
