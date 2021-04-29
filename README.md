@@ -16,7 +16,7 @@ Crear un menú de acceso de la aplicación que permita:
 
 1. Ingreso de Terminator:
 
-Ø Número de Serie (String): Corresponde a un código identificador único del Terminator, debe
+Número de Serie (String): Corresponde a un código identificador único del Terminator, debe
 tener un largo de 7 caracteres y no puede existir otro igual. En el caso de que exista otro
 Terminator con el mismo Número de Serie, el sistema debe solicitar un nuevo número de serie.
 Ø Tipo (String Tipo): Puede ser alguno de los siguientes:
@@ -29,7 +29,7 @@ Página 2 de 2
 PrioridadBase (int) : prioridad de ejecución de un objetivo cuando el
 mismo es distinto a Sarah Connor
 
-Ø Objetivo (String): Corresponde al principal objetivo a eliminar del Terminator, en el caso de
+Objetivo (String): Corresponde al principal objetivo a eliminar del Terminator, en el caso de
 que el objetivo sea Sarah Connor, el atributo prioridad del Terminator debe ser definida como
 999, sino debe ser definida por la prioridad base
 
