@@ -14,7 +14,7 @@ Crear un menú de acceso de la aplicación que permita:
 • Buscar Terminator
 • Mostrar Terminators
 
-# 1 Ingreso de Terminator:
+# 1 Ingresar Terminator
 
 Número de Serie (String): Corresponde a un código identificador único del Terminator, debe
 tener un largo de 7 caracteres y no puede existir otro igual. En el caso de que exista otro
