@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using TerminatorModel.DAL;
 using TerminatorModel.DTO;
 
-namespace CreacionTerminators
+namespace CreacionTerminators.Partials
 {
     public partial class Program 
     {
@@ -35,7 +35,7 @@ namespace CreacionTerminators
                 }
             } while (nroSerie == string.Empty);
 
-            //tipo = GetTipo();
+            tipo = GetTipo();
 
             do
             {
@@ -65,12 +65,12 @@ namespace CreacionTerminators
                 } while (prioridad < 0 || prioridad > 999);
             }
 
-           // anioDestino = GetAnio;
+            anioDestino = GetAnioDestino();
 
             Terminator t = new Terminator()
             {
-                NroSerie = nroSerie, Objetivo= objetivo,/* AnioDestino = anioDestino,*/
-                /*Tipo = tipo,*/
+                NroSerie = nroSerie, Objetivo= objetivo, AnioDestino = anioDestino,
+                Tipo = tipo,
                 Prioridad = prioridad
             };
 
@@ -91,10 +91,11 @@ namespace CreacionTerminators
 
         static void BuscarTerminators()
         {
-            //Tipo tipo = GetTipo();
-            //int anio = GetAnioDestino();
+            Tipo tipo = GetTipo();
+            int anio = GetAnioDestino();
 
-            //List<Terminator>
+            List<Terminator> terminators = dal.FindByModelAndAnio(tipo, anio);
+            terminators.ForEach(Console.WriteLine);
         }
 
 
@@ -102,7 +103,7 @@ namespace CreacionTerminators
         {
             bool continuar = true;
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.Clear();
+            Console.WriteLine(" ");
             Console.WriteLine("Bienvenido a Skynet");
             Console.WriteLine("1. Ingresar Terminator");
             Console.WriteLine("2. Mostrar Terminator");
@@ -122,7 +123,6 @@ namespace CreacionTerminators
                     break;
                 default:
                     Console.WriteLine("Use Bien el teclado Porfavor");
-                    Console.ReadKey();
                     break;
             }
             return continuar;

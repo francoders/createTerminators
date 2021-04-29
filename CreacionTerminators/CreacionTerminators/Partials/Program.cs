@@ -62,17 +62,8 @@ namespace CreacionTerminators.Partials
                         resp = string.Empty;
                         break;
                 }
-            } while (resp == string.Empty);
+            } while (resp == String.Empty);
             return tipo;
         }
-
-
-
-
-
-
-
-
-
     }
 }
