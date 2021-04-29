@@ -45,5 +45,4 @@ El usuario debe ingresar el modelo y año de un posible Terminator y el sistema 
 Terminators que tengan ese modelo y año de destino, con la estructura Número de Serie + “ “ + Tipo + “ “ + objetivo.
 
 # 3 Mostrar Terminators
-Al ingresar a este menú, debe mostrar los datos de todos los Terminators, con la estructura ya descrita en
-el punto 2.
+Al ingresar a este menú, debe mostrar los datos de todos los Terminators
