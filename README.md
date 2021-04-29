@@ -3,7 +3,6 @@ Desarrollo de una aplicacion C# que permite emular el funcionamiento del sistema
 máquinas SkyNet de la pelicula Terminator
 
 # Para lo cual:
-
 1. Crear un Class Library que incluya el Namespace DTO y, dentro de él, la Clase Terminator, que
 debe incluir los atributos descritos en el módulo de ingreso.
 
