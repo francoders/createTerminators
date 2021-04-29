@@ -42,8 +42,7 @@ DAL definido en la Clase Principal
 
 # 2 Buscar Terminator
 El usuario debe ingresar el modelo y año de un posible Terminator y el sistema debe mostrar todos los
-Terminators que tengan ese modelo y año de destino, con la estructura Número de Serie + “ “ + Tipo
-+ “ “ + objetivo.
+Terminators que tengan ese modelo y año de destino, con la estructura Número de Serie + “ “ + Tipo + “ “ + objetivo.
 
 # 3 Mostrar Terminators
 Al ingresar a este menú, debe mostrar los datos de todos los Terminators, con la estructura ya descrita en
