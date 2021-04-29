@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1500
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreacionTerminators", "CreacionTerminators\CreacionTerminators.csproj", "{8A9516B5-8F94-4428-B2ED-E842C0583481}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerminatorModel", "TerminatorModel\TerminatorModel.csproj", "{A78A9FA8-2778-4BD3-A750-644EB2153C1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A9516B5-8F94-4428-B2ED-E842C0583481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A9516B5-8F94-4428-B2ED-E842C0583481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A9516B5-8F94-4428-B2ED-E842C0583481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A9516B5-8F94-4428-B2ED-E842C0583481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78A9FA8-2778-4BD3-A750-644EB2153C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78A9FA8-2778-4BD3-A750-644EB2153C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78A9FA8-2778-4BD3-A750-644EB2153C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78A9FA8-2778-4BD3-A750-644EB2153C1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE6F28F7-8A62-4660-A1D7-1014612CC046}
+	EndGlobalSection
+EndGlobal
